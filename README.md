@@ -30,6 +30,6 @@ The user can click on back button to return to the main page and research the ne
 
 2. Dashboard – Display the analytical and operational data
 
-<img width="650" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/log_dashboard.png"/>
+<img width="650" height="1050" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/log_dashboard.png"/>
 
 3. Deployed the web service to Heroku
