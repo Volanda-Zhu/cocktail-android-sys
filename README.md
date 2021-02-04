@@ -13,7 +13,7 @@ My application uses TextView, EditText, Button, ImageView, Spinner and ScrollVie
 
 Here is a screenshot of the layout before the user clicks on any button.
 
-<img width="350" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/frontpage.png"/>
+<img width="350" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/1.png"/>
 
 1.2 Requires input from the users
 
