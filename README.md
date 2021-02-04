@@ -11,4 +11,4 @@ FancyCocktail
 My application uses TextView, EditText, Button, ImageView, Spinner and ScrollView. See content_main.xml and content_cocktail.xml for details of how they are incorporated into the LinearLayout or RelativeLayout.
 Here is a screenshot of the layout before the user clicks on any button.
 
-<img width="250" height="450" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/frontpage.png"/>
+<img width="350" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/frontpage.png"/>
