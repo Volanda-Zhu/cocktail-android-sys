@@ -79,8 +79,11 @@ Information about the reply to the mobile phone.
 
 The URL of my web service deployed to Heroku is
 https://secret-falls-66819.herokuapp.com/searchCocktail/
+
 The search URL:
 https://secret-falls-66819.herokuapp.com/searchCocktail/cocktail
+
 where cocktail is the name of beverage that user want to search, such as “mojito”.
 The dashboard URL:
+
 https://secret-falls-66819.herokuapp.com/searchCocktail
