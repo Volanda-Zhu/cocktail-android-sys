@@ -16,21 +16,45 @@ Here is a screenshot of the layout before the user clicks on any button.
 
 <img width="350" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/1.png"/>
 
-1.2 Requires input from the users
+### 1.2 Requires input from the users
+Here is a screenshot of the user searching for a picture of cocktail 
+<img width="350" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/2.png"/>
 
-1.3 Makes an HTTP request (using an appropriate HTTP to your web service)
+Click on the Spinner to choose the language for instructions.
+<img width="350" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/3.png"/>
 
-1.4 Receives and parses a JSON formatted reply from the web service.
+### 1.3 Makes an HTTP request (using an appropriate HTTP to your web service)
 
-1.5 Display new information to the user.
+My application does an HTTP GET request in GetCocktail.java. The HTTP request is:
+https://fast-badlands-08190.herokuapp.com/searchCocktail?name=" + searchTerm.replaceAll(" ", "_"));
+where the searchTerm is the user’s search term.
+Here I replace all the space with “_” because the url use “_” to combine the words.
+For example, If the user inputs the “long island tea”, the corresponding url will be:
+https://fast-badlands-08190.herokuapp.com/searchCocktail?name=long_island_tea.
+The search method makes this request of my web application, parses the returned XML to find the picture URL, fetches the picture and returns the bit image of the picture. At the same time, it also fetch other textual information as mentioned above to provide users with a thorough recipe of cocktail or other beverage.
 
-<img width="350" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/example.png"/>
+### 1.4 Receives and parses a JSON formatted reply from the web service.
 
-1.6 Is repeatable (i.e. the user can repeatedly reuse the application without restarting it.)
+### 1.5 Display new information to the user.
+Here is the screen shot after the picture and textual data have been returned.
+<img width="350" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/4.png"/>
+
+You can scroll down to see the whole contents
+
+<img width="350" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/5.png"/>
+
+### 1.6 Is repeatable (i.e. the user can repeatedly reuse the application without restarting it.)
 The user can click on back button to return to the main page and research the next beverage.
 
-2. Dashboard – Display the analytical and operational data
+<img width="350" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/6.png"/>
+
+If the data is invalid, it will notify the user that data is invalid
+
+
+<img width="350" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/7.png"/>
+
+## 2. Dashboard – Display the analytical and operational data
 
 <img width="1050" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/log_dashboard.png"/>
 
-3. Deployed the web service to Heroku
+## 3. Deployed the web service to Heroku
