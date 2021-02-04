@@ -83,5 +83,4 @@ https://secret-falls-66819.herokuapp.com/searchCocktail/
 The search URL:
 https://secret-falls-66819.herokuapp.com/searchCocktail/cocktailwhere cocktail is the name of beverage that user want to search, such as “mojito”.
 
-The dashboard URL:
-https://secret-falls-66819.herokuapp.com/searchCocktail
+
