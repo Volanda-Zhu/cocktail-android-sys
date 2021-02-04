@@ -6,7 +6,7 @@ My application provides users with a cocktail recipe. It takes a search string f
 Here is how my application meets the task requirements.
 
 1.  Implement a native Android Application.
-The name of my native Android application project in Android Studio is: FancyCocktail
+The name of my native Android application project in Android Studio is: `FancyCocktail`
 
 1.1 Has at least two different kind of views in your Layout (TextView, EditText, ImageView, etc.)
 My application uses TextView, EditText, Button, ImageView, Spinner and ScrollView. See content_main.xml and content_cocktail.xml for details of how they are incorporated into the LinearLayout or RelativeLayout.
