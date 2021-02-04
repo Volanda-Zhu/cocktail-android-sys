@@ -58,7 +58,8 @@ If the data is invalid, it will notify the user that data is invalid
 
 ## 2. Dashboard – Display the analytical and operational data
 
-1. Log useful information
+Log useful information
+
 The information includes:
 Information about the request from the mobile phone
 • device: user-agent
@@ -75,3 +76,11 @@ Information about the reply to the mobile phone.
 <img width="1050" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/log_dashboard.png"/>
 
 ## 3. Deployed the web service to Heroku
+
+The URL of my web service deployed to Heroku is
+https://secret-falls-66819.herokuapp.com/searchCocktail/
+The search URL:
+https://secret-falls-66819.herokuapp.com/searchCocktail/cocktail
+where cocktail is the name of beverage that user want to search, such as “mojito”.
+The dashboard URL:
+https://secret-falls-66819.herokuapp.com/searchCocktail
