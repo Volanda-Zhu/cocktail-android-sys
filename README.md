@@ -18,9 +18,11 @@ Here is a screenshot of the layout before the user clicks on any button.
 
 ### 1.2 Requires input from the users
 Here is a screenshot of the user searching for a picture of cocktail 
+
 <img width="350" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/2.png"/>
 
 Click on the Spinner to choose the language for instructions.
+
 <img width="350" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/3.png"/>
 
 ### 1.3 Makes an HTTP request (using an appropriate HTTP to your web service)
