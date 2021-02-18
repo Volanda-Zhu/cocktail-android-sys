@@ -83,7 +83,7 @@ Information about the reply to the mobile phone.
 
 • start time: startTime
 
-<img width="950" height="850" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/log_dashboard.png"/>
+<img width="1050" height="750" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/log_dashboard.png"/>
 
 ### 2.1 structure
 In my web app project:
