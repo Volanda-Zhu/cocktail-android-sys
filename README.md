@@ -28,7 +28,7 @@ Click on the Spinner to choose the language for instructions.
 ### 1.3 Makes an HTTP request (using an appropriate HTTP to your web service)
 
 My application does an HTTP GET request in GetCocktail.java. The HTTP request is:
-https://fast-badlands-08190.herokuapp.com/searchCocktail?name=" + searchTerm.replaceAll(" ", "_"));
+https://fast-badlands-08190.herokuapp.com/searchCocktail?name=" + searchTerm.replaceAll(" ", "\_"));
 where the searchTerm is the user’s search term.
 Here I replace all the space with “_” because the url use “_” to combine the words.
 For example, If the user inputs the “long island tea”, the corresponding url will be:
