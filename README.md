@@ -30,7 +30,7 @@ Click on the Spinner to choose the language for instructions.
 My application does an HTTP GET request in GetCocktail.java. The HTTP request is:
 https://fast-badlands-08190.herokuapp.com/searchCocktail?name=" + searchTerm.replaceAll(" ", "\_"));
 where the searchTerm is the user’s search term.
-Here I replace all the space with “_” because the url use “_” to combine the words.
+Here I replace all the space with “\_” because the url use “\_” to combine the words.
 For example, If the user inputs the “long island tea”, the corresponding url will be:
 https://fast-badlands-08190.herokuapp.com/searchCocktail?name=long_island_tea.
 The search method makes this request of my web application, parses the returned XML to find the picture URL, fetches the picture and returns the bit image of the picture. At the same time, it also fetch other textual information as mentioned above to provide users with a thorough recipe of cocktail or other beverage.
