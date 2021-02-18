@@ -58,7 +58,7 @@ If the data is invalid, it will notify the user that data is invalid
 
 ## 2. Dashboard – Display the analytical and operational data
 
-Log useful information
+### Log useful information
 
 The information includes:
 Information about the request from the mobile phone
@@ -85,14 +85,14 @@ Information about the reply to the mobile phone.
 
 <img width="1050" height="650" src="https://github.com/Volanda-Zhu/cocktail-android-sys/blob/master/picture/log_dashboard.png"/>
 
-2.1 structure
+### 2.1 structure
 In my web app project:
 
 Model: CocktailModel.java, CocktailMongoDB.java
 
 View: result.jsp (for dashboard), index.jsp (default setting)
 
-2.2 Analytical data
+### 2.2 Analytical data
 
 • Average latency
 
@@ -102,7 +102,7 @@ View: result.jsp (for dashboard), index.jsp (default setting)
 
 • Top 3 devices
 
-3.3 Log data
+### 2.3 Log data
 • Device
 
 • Timestamp
